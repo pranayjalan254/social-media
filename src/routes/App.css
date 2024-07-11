@@ -5,8 +5,9 @@
 .content {
   width: 100%;
 }
+
 .sidebar {
-  height: 8000px;
+  min-height: 800px;
 }
 
 .post-card {
@@ -18,11 +19,19 @@
 }
 
 .reactions {
-  margin: 10px 0px 0px 0px;
+  margin: 15px 0 0 0;
 }
 
 .create-post {
   width: 80%;
-  margin-left: 10%;
   margin-top: 50px;
+  margin-left: 10%;
+}
+
+.welcome-message {
+  margin: 100px 0;
+}
+
+.spinner {
+  margin: 10% 0;
 }
